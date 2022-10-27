@@ -11,7 +11,11 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     
-    function public Pinhoseulindo(){
+    public function Pinhoseulindo(){
         return "OK";
+    }
+    
+    public function Pinhooooooo(){
+        return $this->Pinhoseulindo();
     }
 }
